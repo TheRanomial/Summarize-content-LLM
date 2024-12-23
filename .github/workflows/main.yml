@@ -25,4 +25,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://himanshusngh2026:$HF_TOKEN@huggingface.co/spaces/himanshusngh2026/Search_engine_llm main
+        run: git push https://himanshusngh2026:$HF_TOKEN@huggingface.co/spaces/himanshusngh2026/Summarize_content main
